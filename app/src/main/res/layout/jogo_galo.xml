@@ -116,6 +116,7 @@
         android:layout_marginStart="96dp"
         android:width="87dp"
         android:height="70dp"
+        android:onClick="tab1_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -126,6 +127,7 @@
         android:layout_marginStart="192dp"
         android:width="87dp"
         android:height="70dp"
+        android:onClick="tab1_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -136,6 +138,7 @@
         android:layout_marginTop="80dp"
         android:width="87dp"
         android:height="100dp"
+        android:onClick="tab2_1"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -147,6 +150,7 @@
         android:layout_marginTop="80dp"
         android:width="87dp"
         android:height="100dp"
+        android:onClick="tab2_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -158,6 +162,7 @@
         android:layout_marginTop="80dp"
         android:width="87dp"
         android:height="100dp"
+        android:onClick="tab2_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -168,6 +173,7 @@
         android:layout_marginTop="188dp"
         android:width="87dp"
         android:height="90dp"
+        android:onClick="tab3_1"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -179,6 +185,7 @@
         android:layout_marginTop="188dp"
         android:width="87dp"
         android:height="90dp"
+        android:onClick="tab3_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
@@ -190,6 +197,7 @@
         android:layout_marginTop="188dp"
         android:width="87dp"
         android:height="90dp"
+        android:onClick="tab3_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
         app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
 
