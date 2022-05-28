@@ -118,7 +118,8 @@
         android:height="70dp"
         android:onClick="tab1_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab1_3"
@@ -129,7 +130,8 @@
         android:height="70dp"
         android:onClick="tab1_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab2_1"
@@ -140,7 +142,8 @@
         android:height="100dp"
         android:onClick="tab2_1"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab2_2"
@@ -152,7 +155,8 @@
         android:height="100dp"
         android:onClick="tab2_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab2_3"
@@ -164,7 +168,8 @@
         android:height="100dp"
         android:onClick="tab2_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab3_1"
@@ -175,7 +180,8 @@
         android:height="90dp"
         android:onClick="tab3_1"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab3_2"
@@ -187,7 +193,8 @@
         android:height="90dp"
         android:onClick="tab3_2"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tab3_3"
@@ -199,6 +206,18 @@
         android:height="90dp"
         android:onClick="tab3_3"
         app:layout_constraintStart_toStartOf="@+id/tabuleiro"
-        app:layout_constraintTop_toTopOf="@+id/tabuleiro" />
+        app:layout_constraintTop_toTopOf="@+id/tabuleiro"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView_jogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:text="Jogador 1 é a sua vez"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/tab3_1"
+        app:layout_constraintTop_toBottomOf="@+id/tabuleiro" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
