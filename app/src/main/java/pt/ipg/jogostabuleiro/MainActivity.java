@@ -2,6 +2,7 @@ package pt.ipg.jogostabuleiro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
@@ -57,26 +58,25 @@ public class MainActivity<i> extends AppCompatActivity {
         if (ganhou() == 0){
 
             if (board[linha][coluna] == 0) {
-                System.out.println("x");
                 if ((jogada % 2 + 1) ==1) {
                     board[linha][coluna] = 1;
                 }else{
                     board[linha][coluna] = -1;
                 }
             }else{
-                System.out.println("x");
                 System.out.println("Nao esta vazio");
                 jogada -= 1;
 
             }
             jogada += 1;
         }
+
         if (ganhou() == 1) {
             System.out.println("Jogador " + (jogada % 2+1) + " ganhou apos " + (jogada-1) + " rodadas");
+            return true;
         }
 
-
-      return true;
+        return true;
     }
 
 
@@ -88,7 +88,6 @@ public class MainActivity<i> extends AppCompatActivity {
             } else {
                 v.setBackground(getResources().getDrawable(R.drawable.circle));
             }
-
         }
 
 
