@@ -63,6 +63,7 @@ public class MainActivity<i> extends AppCompatActivity {
                 }else{
                     board[linha][coluna] = -1;
                 }
+                sadasd
             }else{
                 System.out.println("Nao esta vazio");
                 jogada -= 1;
